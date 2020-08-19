@@ -4,6 +4,7 @@ page {
 }
 view {
   box-sizing: border-box;
+  color: #333;
 }
 .container {
   height: 100%;

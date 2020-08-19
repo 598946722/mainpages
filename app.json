@@ -27,28 +27,29 @@
 	}],
 	"window":{
 		"backgroundTextStyle":"light",
-		"navigationBarBackgroundColor": "#4880ff",
+		"navigationBarBackgroundColor": "#EDEDED",
 		"navigationBarTitleText": "垃圾回收",
-		"navigationBarTextStyle":"white"
+		"navigationBarTextStyle":"black",
+		"backgroundColor": "#f5f5f5"
 	},
 	"tabBar": {
 		"list": [{
 				"pagePath": "pages/index/index",
 				"text": "首页",
-				"iconPath": "pages/images/icon_API.png",
-				"selectedIconPath": "pages/images/icon_API_HL.png"
+				"iconPath": "pages/images/index.png",
+				"selectedIconPath": "pages/images/index-select.png"
 			},
 			{
 				"pagePath": "pages/postcode/postcode",
 				"text": "投递码",
-				"iconPath": "pages/images/icon_cloud.png",
-				"selectedIconPath": "pages/images/icon_cloud_HL.png"
+				"iconPath": "pages/images/postcode.png",
+				"selectedIconPath": "pages/images/postcode-select.png"
 			},
 			{
 				"pagePath": "pages/mine/mine",
 				"text": "我的",
-				"iconPath": "pages/images/icon_component.png",
-				"selectedIconPath": "pages/images/icon_component_HL.png"
+				"iconPath": "pages/images/mine.png",
+				"selectedIconPath": "pages/images/mine-select.png"
 			}
 		]
 	},
